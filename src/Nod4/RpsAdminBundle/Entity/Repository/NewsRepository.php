@@ -22,7 +22,7 @@ class NewsRepository extends EntityRepository {
         parent::__construct($em, $class);
         $emConfig = $this->getEntityManager()->getConfiguration();
         $emConfig->addCustomDatetimeFunction('YEAR', 'Nod4\RpsAdminBundle\DQL\DqlYear');
-    }
+       }
 
 
     /**
