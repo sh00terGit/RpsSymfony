@@ -7,3 +7,4 @@ vendor/
 vendor
 .idea/
 .idea
+app/config/parameters.yml

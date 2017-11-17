@@ -120,7 +120,7 @@ class NewsImg {
     }
 
     public function getWebPath() {
-        return null === $this->path ? null : $this->getUploadDir() . '/' . $this->path;
+        return null === $this->path ? null : '/web'. $this->getUploadDir() . '/' . $this->path;
     }
 
     protected function getUploadRootDir() {

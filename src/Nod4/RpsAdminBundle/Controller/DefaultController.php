@@ -11,11 +11,11 @@ class DefaultController extends Controller
 
     /**
      * @Route("/", name="admin_homepage")
-     * @Template()
+     *
      */
     public function indexAction()
     {
-        return array('name' => 'andrey');
+        return $this->render('RpsAdminBundle:Default:index.html.twig');
     }
 
 
